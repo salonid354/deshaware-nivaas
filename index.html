@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<!-- Code-convention: indicates that code should validate against HTML5 -->
+<!--[if lt IE 7]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!-- Code-Convetion: use a HTML boilderplate with conditional css-classes for IE -->
+
+  <head>
+	<!-- <head> defines characterics of the html-page --> 
+    <meta charset="UTF-8">
+	<!-- Code-convention: all template files should be UTF-8 encoded -->
+	<meta name="description" content="HTML exercise to achieve badge">
+	<!-- Code-Convention: order of the meta and title tags according to NC FE guide -->
+	<meta name="keywords" content="RequirementsEngineering,HTML,CSS">
+	<!-- Code-Convention: simple variant of viewport to use full width of the device for showing the page-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Code-Convention: simple variant of viewport to use full width of the device for showing the page-->
+    <meta name="author" content="Saloni Deshaware">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>ShivSmriti Paying Guest</title>
+	<!-- Code-convention: omit type attributes for link stylesheet, style and script elements -->
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-space-dynamic.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+  </head>
+
+<body>
+  <!-- <body> represents the content of the document --> 
+  
+  <h1>Welcome to my content for the HTML White Badge</h1>
+ <!--To structure the text headlines we can use(h1 to h6) from Level 1 (used for Page Welcome message) and Level 2 and 3 for the content parts. Level 4 and 5 were just used to show some nesting. Level 6 was not used in this document -->
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <!-- <header> represents the upper fixed part of a website (the head) --> 
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+		  <!-- <nav> represents a navigational UI --> 
+
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <h4>Deshaware<span>Nivaas</span></h4>
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+			<!-- <ul> represents and un-ordered list without any numbering -->
+              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+			  <!-- <li> represents an item of a list -->
+              <li class="scroll-to-section"><a href="#attractions">Attractions</a></li>
+              <li class="scroll-to-section"><a href="#services">Services</a></li>
+              <li class="scroll-to-section"><a href="#contact">Message Us</a></li> 
+              <li class="scroll-to-section"><div class="main-red-button"><a href="#contact">Contact Now</a></div></li> 
+               <!-- Code-convetions: one discrete element per line, always use lower case tag and attribute names, use double quote to quote attribute values -->
+
+			</ul>        
+            <a class='menu-trigger'>
+                <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+  <main id="content" class="group">
+  <!-- <main> is used to map ARIA's landmark role. this helps screen-readers and other assistive technologies to understand, where the main-content does begin --> 
+
+
+  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+  <article>
+    <!-- <article> indicates a self-contained content, which could be removed and the content would still make sense to the reader -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+		  
+            <div class="col-lg-6 align-self-center">
+              <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <h6>Welcome to Deshaware Nivaas Paying Guest House with Boarding facilities</h6>
+                <h2>We Provide <em>You Comfortable Home</em> <span>away from</span> Home</h2>
+                <p>Deshaware Nivaas is here for you to provide comfortable rooms with nice ambience and mess facilities</p>
+				<!-- paragraph elements received unique classes and IDs which will enable us to style them seperately via CSS. -->
+			  </div>
+            </div>
+			
+            <div class="col-lg-6">
+              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src="assets/images/hostel.png" alt="hostel">
+				<!-- Code-conventions: Use the alt-tag on images for multi-media feedback and accessibility tools (screen-readers e.g.) -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	</article>
+  </div>
+  
+  <div id="attractions" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="left-image wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+		  <div class="row">
+			<div class="col-md-2">
+			    <img src="assets/images/check.png" class="check-circle" alt="checklist">
+			</div>
+			<div class="col-md-10">
+			<span class="highlight">For: Mens only</span>
+			</div>
+		  </div>
+		  	  <div class="row">
+			<div class="col-md-2">
+			    <img src="assets/images/check.png" class="check-circle" alt="checklist">
+			</div>
+			<div class="col-md-10">
+				<span class="highlight">7 mins walk from Railway Station</span>
+			</div>
+		  </div> 
+		  <div class="row">
+			<div class="col-md-2">
+			    <img src="assets/images/check.png" class="check-circle" alt="checklist">
+			</div>
+			<div class="col-md-10">
+			<span class="highlight">Room on monthly basis facility</span>
+			</div>
+		  </div>
+		  <div class="row">
+			<div class="col-md-2">
+			    <img src="assets/images/check.png" class="check-circle" alt="checklist">
+			</div>
+			<div class="col-md-10">
+			<span class="highlight">Easy Access to Hutatma Chowk</span>
+			</div>
+		  </div>
+		  
+		     
+		 
+		 
+          </div>
+        </div>
+		  <div class="col-lg-6">
+		    <div class="left-image wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+
+		    <div class="row">
+			<div class="col-md-2">
+			    <img src="assets/images/check.png" class="check-circle" alt="checklist">
+			</div>
+			<div class="col-md-10">
+			<span class="highlight">Nearby Rickshaw stand</span>
+			</div>
+		  </div>
+		    <div class="row">
+			<div class="col-md-2">
+			    <img src="assets/images/check.png" class="check-circle" alt="checklist">
+			</div>
+			
+			<div class="col-md-10">
+			<span class="highlight">Clean Premises</span>
+			</div>
+		  </div>
+			
+		  
+		    <div class="row">
+			<div class="col-md-2">
+			    <img src="assets/images/check.png" class="check-circle" alt="checklist">
+			</div>
+			<div class="col-md-10">
+			<span class="highlight">Address: Plot no 339, Kansai Section, ShivSmriti/Saloni Apartment, Ambernath(East), Pin code: 421501</span>
+			</div>
+		  </div>
+		  
+              </div>
+		<div class="left-image wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+      </div>
+    </div>
+  </div>
+<section>
+  <div id="services" class="about-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="left-image wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+            <img src="assets/images/about-left-image.png" alt="person graphic">
+          </div>
+        </div>
+        <div class="col-lg-8 align-self-center">
+          <div class="services">
+            <div class="row">
+			    <div class="col-lg-6 pt-1">
+                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="1.1s">
+                  <div class="icon">
+                    <img src="assets/images/bed.png" class="generic_img" alt="checklist">
+                  </div>
+                  <div class="right-text">
+                    <h4>Bed Facility</h4>
+                  </div>
+                </div>
+              </div>
+			    <div class="col-lg-6">
+                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="1.1s">
+                  <div class="icon">
+                    <img src="assets/images/canteen.png" class="generic_img" alt="checklist">
+                  </div>
+                  <div class="right-text">
+                    <h4>Mess Facility</h4>
+                  </div>
+                </div>
+              </div>
+			    <div class="col-lg-6 pt-3">
+                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.9s">
+                  <div class="icon">
+                    <img src="assets/images/socket.png" class="generic_img" alt="checklist">
+                  </div>
+                  <div class="right-text">
+                    <h4>Electricity</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 pt-3">
+                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                  <div class="icon">
+                    <img src="assets/images/water-drop.png" class="generic_img" alt="reporting">
+                  </div>
+                  <div class="right-text">
+                    <h4>24 Hours Water</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 pt-3">
+                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
+                  <div class="icon">
+                    <img src="assets/images/soft-drink.png" class="generic_img" alt="checklist">
+                  </div>
+                  <div class="right-text">
+                    <h4>Aquaguard Drinking Water</h4>
+                  </div>
+                </div>
+              </div>
+			                <div class="col-lg-6 pt-3">
+                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="1.1s">
+                  <div class="icon">
+                    <img src="assets/images/solar-energy.png" class="generic_img" alt="checklist">
+                  </div>
+                  <div class="right-text">
+                    <h4>Provision of Hot Water - Geyser/Solar Water</h4>
+                  </div>
+                </div>
+              </div>
+            
+
+			 
+			  <div class="col-lg-6 pt-3">
+                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="1.1s">
+                  <div class="icon">
+                    <img src="assets/images/hotspot.png" class="generic_img" alt="checklist">
+                  </div>
+                  <div class="right-text">
+                    <h4>Wifi for deluxe rooms</h4>
+                  </div>
+                </div>
+              </div>
+			
+			    <div class="col-lg-6 pt-3">
+                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="1.1s">
+                  <div class="icon">
+                    <img src="assets/images/housekeeping.png" class="generic_img" alt="checklist">
+                  </div>
+                  <div class="right-text">
+                    <h4>Housekeeping</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section>
+  <div class="contact-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.25s">
+          <div class="section-heading">
+            <h2>Feel free to send us your enquiries</h2>
+            <div class="phone-info">
+              <h4>Kalpana Deshaware<span><i class="fa fa-phone"></i> <a href="#">8668568143</a></span></h4>
+            </div>
+			<div class="phone-info">
+              <h4>Yash Deshaware<span><i class="fa fa-phone"></i> <a href="#">8830682054</a></span></h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.25s">
+		<aside>
+		<!-- <aside> indicates content which is aside from the content it is placed in while the content is related to the surrouning content. several attributes were added to create the look&feel of a "sidebar" on the right side of the page with NC-colors.-->
+          <form id="contact" method="post">
+            <div class="row">
+              <div class="col-lg-6">
+                <fieldset>
+                  <input type="text" name="name" id="name" placeholder="Name" autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-6">
+                <fieldset>
+                  <input type="text" name="surname" id="surname" placeholder="Surname" autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <textarea name="message" class="form-control" id="message" placeholder="Message" required=""></textarea>  
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="main-button ">Send Message</button>
+                </fieldset>
+              </div>
+            </div>
+            <div class="contact-dec">
+              <img src="assets/images/contact-decoration.png" alt="">
+            </div>
+          </form>
+		  </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.25s">
+          <p>© Copyright 2021 ShivSmriti. All Rights Reserved. </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/templatemo-custom.js"></script>
+
+</body>
+</html>
